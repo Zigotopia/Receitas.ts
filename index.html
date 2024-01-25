@@ -1,0 +1,90 @@
+<html lang="Pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <style>
+    body {
+      font-size: 1.25rem;
+      font-family: sans-serif;
+      margin: 2rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    input {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      min-width: 50vw;
+      max-width: 100%;
+    }
+
+    table {
+      border-spacing: 0;
+      text-align: left;
+    }
+
+    table td,
+    th {
+      padding: .5rem 1rem;
+    }
+
+    table tr:nth-child(even) {
+      background-color: ghostwhite;
+    }
+
+    h2,
+    p {
+      margin: 1rem;
+    }
+
+    h2 {
+      border-top: 6px solid ghostwhite;
+      padding-top: 1rem;
+    }
+
+    div {
+      border-top: 3px solid ghostwhite;
+    }
+  </style>
+  <div>
+    <H2>Estatisticas</H2>
+    <p id="total">
+      <span></span>
+    </p>
+    <div id="pagamento"></div>
+    <div id="status"></div>
+    <div id="melhordia"></div>
+  </div>
+  <h2>Dados Finaceiros</h2>
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Compra</th>
+        <th>Pagamento</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+
+
+    </tbody>
+  </table>
+
+
+  <script type="module" src="/script.js"></script>
+</body>
+
+</html>
